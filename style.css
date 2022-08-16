@@ -298,7 +298,7 @@ html{
             /* display: none; */
             background-color: rgba(255, 255, 255, 0.904);
             color: #212529;
-            width: 400px;
+            width: 360px;
             position:absolute;
             height: 700px;
             margin-top: 0;
@@ -354,6 +354,7 @@ html{
         }
         .header-main-contant h1{
             width: 95%;
+            font-size: 3rem;
         }
         .header-main-contant p{
             width: 95%;
