@@ -306,6 +306,7 @@ html{
             text-align: center;
             display: none;
             transition: 0.5s;
+            margin: auto;
             
         }
        
@@ -379,9 +380,12 @@ html{
     
     
         .intro-text h1{
-        font-size: 3rem;
+        font-size: 2rem;
         font-family:"Playfair Display", serif;
         color: #fff;
+    }
+    .intro-text p{
+        width: 98%;
     }
     .title h1{
         color: #fff;
