@@ -298,9 +298,10 @@ html{
             /* display: none; */
             background-color: rgba(5, 5, 5, 0.904);
             color: #212529;
-            width: 100%;
+            width: 90%;
             position:absolute;
             height: 100vw;
+            padding: 10px 0;
             margin-top: 0;
             margin-left: 100px;
             text-align: center;
@@ -336,10 +337,12 @@ html{
             cursor: pointer;
             position: relative;
             left: 150px; top: 20px;
+            color: #fff;
         }
         .bars i{
             display: inline-block;
             cursor: pointer;
+
             
         }
         header {
@@ -399,6 +402,7 @@ html{
     .security-iteam{
         display: inline-block;
         justify-content: space-between;
+        margin: 20px 0 ;
     }
     .security-iteam .text{
         width: 98%;
