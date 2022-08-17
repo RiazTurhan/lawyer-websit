@@ -296,22 +296,24 @@ html{
         }
         nav{
             /* display: none; */
-            background-color: rgba(255, 255, 255, 0.904);
+            background-color: rgba(5, 5, 5, 0.904);
             color: #212529;
-            width: 360px;
+            width: 100%;
             position:absolute;
-            height: 700px;
+            height: 100vw;
             margin-top: 0;
             margin-left: 100px;
             text-align: center;
             display: none;
             transition: 0.5s;
             margin: auto;
+            border-radius: 5px;
+            
             
         }
        
         nav > ul> li > a{
-            color: #212529;
+            color: #fff;
             font-size: 20px;
             margin: 50px 0;
         }
