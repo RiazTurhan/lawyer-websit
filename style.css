@@ -256,7 +256,9 @@ html{
 
     /* ================= security start ================ */
 
-
+    .security{
+        margin: 50px 0;
+    }
     .security-iteam{
         display: flex;
         justify-content: space-between;
@@ -284,6 +286,47 @@ html{
 
 
     /* ================= security End ================ */
+
+    /* ================= contact start =================== */
+
+    form{
+        text-align: center;
+    }
+    .section-contact > .container .title > h1{
+        font-size: 3rem;
+    }
+    .short-text{
+        text-align: center;
+
+    }
+    .section-contact > .container > button{
+        margin: 20px 45px;
+    }
+    input{
+        width: 45%;
+        height: 55px;
+        border: none;
+        margin: 4px 5px;
+        font-size: 20px;
+        padding: 10px 10px;
+        outline: none;
+        color: #c4bfbf;
+        background-color: #1a1a1a;
+    }
+    textarea{
+        
+        font-size: 20px;
+        resize: none;
+        padding: 10px 10px;
+        width: 91.5%;
+        height: 400px;
+        outline: none;
+        color: #c4bfbf;
+        background-color: #1a1a1a;
+        border: none;
+    }
+
+    /* ================= contact End =================== */
 
 
 
@@ -349,6 +392,7 @@ html{
             width: 100%;
             background-size: cover;
             overflow-x: hidden;
+            background-position: center;
         }
         header .text{
             width: 90%;
@@ -411,4 +455,38 @@ html{
     .security-img img{
         width: 100%;
     }
+    .section-contact > .container .title > h1{
+        font-size: 2rem;
+    }
+    input{
+        width: 100%;
+        height: 55px;
+        border: none;
+        margin: 4px 5px;
+        font-size: 20px;
+        padding: 10px 10px;
+        outline: none;
+        color: #c4bfbf;
+        background-color: #1a1a1a;
+    }
+    textarea{
+        
+        font-size: 20px;
+        resize: none;
+        padding: 10px 10px;
+        width: 98%;
+        height: 200px;
+        outline: none;
+        color: #c4bfbf;
+        background-color: #1a1a1a;
+        border: none;
+        margin: 20px 0;
+    }
+    form{
+        text-align: center;
+    }
+    .section-contact > .container > button{
+        margin: 20px 7px;
+    }
+
     }
