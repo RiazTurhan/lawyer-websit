@@ -236,6 +236,7 @@ html{
     .service-iteam .col-1:hover{
         background-color: #037eF3;
         border-radius: 5px;
+        cursor: pointer;
     }
 
 
@@ -327,6 +328,52 @@ html{
     }
 
     /* ================= contact End =================== */
+    /* ====================== security ======================= */
+
+    .tab hr{
+        opacity: 0.1;
+    }
+    .tab {
+        overflow: hidden;
+        margin: 20px auto;
+    }
+    .tab > button{
+        background: none;
+        margin: 0 80px;
+    }
+    .tab > button:hover{
+        border-bottom: 2px solid #fff;
+        border-radius: none;
+    }
+    .tabcontent{
+        display: flex;
+        margin: 50px 0;
+        justify-content: space-between;
+    }
+
+    .tabcontent> .text{
+        width: 25%;
+    }
+
+    .tabcontent> .text> h1{
+        color: #fff;
+        font-family: serif;
+        font-size: 3rem;
+    }
+    .tabcontent> .text> P{
+        color: #c4bfbf;
+        margin: 30PX 0;
+        white-space: 50px;
+        line-height: 1.9rem;
+    }
+
+    .img{
+        width: 60%;
+    }
+    .img> img{
+        max-width: 100%;
+        height: auto;
+    }
 
 
 
@@ -488,5 +535,24 @@ html{
     .section-contact > .container > button{
         margin: 20px 7px;
     }
-
+    .tabcontent{
+        flex-direction: column-reverse;
+        margin: 50px 0;
     }
+    .tab > button{
+        background: none;
+        justify-content: start;
+        border: 1px solid #fff;
+        margin: 10px 0;
+    }
+     
+    .img{
+        width: 100%;
+    }
+    .tabcontent> .text{
+        width: 100%;
+        margin: 20px 0;
+    }
+    }
+
+    
